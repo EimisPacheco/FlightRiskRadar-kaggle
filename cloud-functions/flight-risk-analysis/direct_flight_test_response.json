@@ -1,0 +1,29 @@
+{
+  "request": {
+    "action": "lookup_specific_flight",
+    "flight_number": "WN1125",
+    "airline_code": "WN",
+    "airline_name": "Southwest Airlines",
+    "date": "2025-07-28"
+  },
+  "response_status": 200,
+  "response_data": {
+    "success": false,
+    "error": "missing_route_info",
+    "orchestrator": {
+      "intent": "route_analysis",
+      "reasoning": "Origin and destination are required for route analysis"
+    },
+    "response": "\ud83d\udeeb **Route Information Required**\\n\\nI need both origin and destination to search for flights.\\n\\n**Please try again with both locations like:**\\n\u2022 \\\"Show me flights from New York to San Francisco on July 16th 2025\\\"\\n\u2022 \\\"What flights are available from LAX to JFK for December 15th 2024\\\"",
+    "timestamp": "2025-07-28T01:27:58.108431+00:00",
+    "adk_status": {
+      "framework": "Google ADK",
+      "model": "gemini-2.0-flash",
+      "unified_routing": true,
+      "standardized_agents": true
+    }
+  },
+  "openweather_detected": false,
+  "serpapi_detected": false,
+  "timestamp": "2025-07-27T20:27:58.039271"
+}

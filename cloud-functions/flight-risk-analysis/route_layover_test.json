@@ -1,0 +1,4 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   515  100   437  100    78    483     86 --:--:-- --:--:-- --:--:--   569100   515  100   437  100    78    483     86 --:--:-- --:--:-- --:--:--   569
+{"success": false, "orchestrator": {"intent": "route_analysis", "reasoning": "Legacy route analysis"}, "flights": [], "weather_analysis": {}, "route_info": {"origin": "SEA", "destination": "MIA", "date": "2025-02-15"}, "error": "No flights found for this route", "timestamp": "2025-07-29T22:37:52.595881+00:00", "adk_status": {"framework": "Google ADK", "model": "gemini-2.0-flash", "unified_routing": true, "standardized_agents": true}}

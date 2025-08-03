@@ -1,0 +1,242 @@
+{
+  "SJC": {
+    "airport_info": {
+      "code": "SJC",
+      "city": "San Jose",
+      "state": "CA",
+      "country": "US"
+    },
+    "request_params": {
+      "q": "San Jose,CA,US",
+      "appid": "bc50a2de0e54181ecaa2c0495dd29fc3",
+      "units": "imperial"
+    },
+    "response_status": 200,
+    "raw_response": {
+      "coord": {
+        "lon": -121.895,
+        "lat": 37.3394
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 72.95,
+        "feels_like": 72.81,
+        "temp_min": 68.86,
+        "temp_max": 76.01,
+        "pressure": 1015,
+        "humidity": 61,
+        "sea_level": 1015,
+        "grnd_level": 986
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 13.8,
+        "deg": 340
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1753665761,
+      "sys": {
+        "type": 1,
+        "id": 5845,
+        "country": "US",
+        "sunrise": 1753621687,
+        "sunset": 1753672789
+      },
+      "timezone": -25200,
+      "id": 5392171,
+      "name": "San Jose",
+      "cod": 200
+    },
+    "timestamp": "2025-07-27T20:23:19.690792"
+  },
+  "LAX": {
+    "airport_info": {
+      "code": "LAX",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "US"
+    },
+    "request_params": {
+      "q": "Los Angeles,CA,US",
+      "appid": "bc50a2de0e54181ecaa2c0495dd29fc3",
+      "units": "imperial"
+    },
+    "response_status": 200,
+    "raw_response": {
+      "coord": {
+        "lon": -118.2437,
+        "lat": 34.0522
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 75.04,
+        "feels_like": 74.97,
+        "temp_min": 67.24,
+        "temp_max": 81.19,
+        "pressure": 1014,
+        "humidity": 58,
+        "sea_level": 1014,
+        "grnd_level": 995
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 13.8,
+        "deg": 260
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1753665268,
+      "sys": {
+        "type": 2,
+        "id": 2075946,
+        "country": "US",
+        "sunrise": 1753621252,
+        "sunset": 1753671471
+      },
+      "timezone": -25200,
+      "id": 5368361,
+      "name": "Los Angeles",
+      "cod": 200
+    },
+    "timestamp": "2025-07-27T20:23:19.835139"
+  },
+  "JFK": {
+    "airport_info": {
+      "code": "JFK",
+      "city": "New York",
+      "state": "NY",
+      "country": "US"
+    },
+    "request_params": {
+      "q": "New York,NY,US",
+      "appid": "bc50a2de0e54181ecaa2c0495dd29fc3",
+      "units": "imperial"
+    },
+    "response_status": 200,
+    "raw_response": {
+      "coord": {
+        "lon": -74.006,
+        "lat": 40.7143
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 81.5,
+        "feels_like": 87.82,
+        "temp_min": 78.76,
+        "temp_max": 83.37,
+        "pressure": 1013,
+        "humidity": 81,
+        "sea_level": 1013,
+        "grnd_level": 1012
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 8.05,
+        "deg": 170
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1753665001,
+      "sys": {
+        "type": 2,
+        "id": 2037026,
+        "country": "US",
+        "sunrise": 1753609685,
+        "sunset": 1753661804
+      },
+      "timezone": -14400,
+      "id": 5128581,
+      "name": "New York",
+      "cod": 200
+    },
+    "timestamp": "2025-07-27T20:23:19.974457"
+  },
+  "ATL": {
+    "airport_info": {
+      "code": "ATL",
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "US"
+    },
+    "request_params": {
+      "q": "Atlanta,GA,US",
+      "appid": "bc50a2de0e54181ecaa2c0495dd29fc3",
+      "units": "imperial"
+    },
+    "response_status": 200,
+    "raw_response": {
+      "coord": {
+        "lon": -84.388,
+        "lat": 33.749
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 87.22,
+        "feels_like": 92.7,
+        "temp_min": 83.66,
+        "temp_max": 88.74,
+        "pressure": 1019,
+        "humidity": 58,
+        "sea_level": 1019,
+        "grnd_level": 985
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 6.91,
+        "deg": 270
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1753665610,
+      "sys": {
+        "type": 2,
+        "id": 2006620,
+        "country": "US",
+        "sunrise": 1753613161,
+        "sunset": 1753663311
+      },
+      "timezone": -14400,
+      "id": 4180439,
+      "name": "Atlanta",
+      "cod": 200
+    },
+    "timestamp": "2025-07-27T20:23:20.114377"
+  }
+}
